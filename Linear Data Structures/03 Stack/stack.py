@@ -1,4 +1,4 @@
-class stack:
+class Stack:
 	def __init__(self):
 		'''
 		Initializes the stack.
@@ -48,7 +48,7 @@ if __name__=='__main__':
 	
 	'''Example'''
 	
-	stk = stack()
+	stk = Stack()
 	stk.push(0)
 	stk.push(1)
 	stk.push(2)

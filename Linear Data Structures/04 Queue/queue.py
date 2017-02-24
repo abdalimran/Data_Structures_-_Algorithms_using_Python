@@ -1,4 +1,4 @@
-class queue:
+class Queue:
 	def __init__(self):
 		'''
 		Initializes the queue.
@@ -47,7 +47,7 @@ if __name__=='__main__':
 	
 	'''Example'''
 	
-	que = queue()
+	que = Queue()
 	que.enqueue(0)
 	que.enqueue(1)
 	que.enqueue(2)
